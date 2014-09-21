@@ -149,43 +149,43 @@ Body Gyroscope Jerk signal Standard Deviation in the Z dimension
 
 tBodyAccMagnitude.Mean
 -----------------------
-Body Acceleration Magnitude using the Euclidean norm Mean
+Body Acceleration Magnitude using the Euclidean norm, Mean
 
 tBodyAccMagnitude.StdDev
 ---------------------------
-Body Acceleration Magnitude using the Euclidean norm Standard Deviation
+Body Acceleration Magnitude using the Euclidean norm, Standard Deviation
 
 tGravityAccMagnitude.Mean
 ---------------------------
-Gravity Acceleration Magnitude using the Euclidean norm Mean
+Gravity Acceleration Magnitude using the Euclidean norm, Mean
 
 tGravityAccMagnitude.StdDev
 -----------------------------
-Gravity Acceleration Magnitude using the Euclidean norm Standard Deviation
+Gravity Acceleration Magnitude using the Euclidean norm, Standard Deviation
 
 tBodyAccJerkMagnitude.Mean
 ------------------------------
-Body Acceleration Jerk signal Magnitude using the Euclidean norm Mean
+Body Acceleration Jerk signal Magnitude using the Euclidean norm, Mean
 
 tBodyAccJerkMagnitude.StdDev
 -------------------------------
-Body Acceleration Jerk signal Magnitude using the Euclidean norm Standard Deviation
+Body Acceleration Jerk signal Magnitude using the Euclidean norm, Standard Deviation
 
 tBodyGyroMagnitude.Mean
 -----------------------
-Body Gyroscope Magnitude using the Euclidean norm Mean
+Body Gyroscope Magnitude using the Euclidean norm, Mean
 
 tBodyGyroMagnitude.StdDev
 ---------------------------
-Body Gyroscope Magnitude using the Euclidean norm Standard Deviation
+Body Gyroscope Magnitude using the Euclidean norm, Standard Deviation
 
 tBodyGyroJerkMagnitude.Mean
 ------------------------------
-Body Gyroscope Jerk signal Magnitude using the Euclidean norm Mean
+Body Gyroscope Jerk signal Magnitude using the Euclidean norm, Mean
 
 tBodyGyroJerkMagnitude.StdDev
 -------------------------------
-Body Gyroscope Jerk signal Magnitude using the Euclidean norm Standard Deviation
+Body Gyroscope Jerk signal Magnitude using the Euclidean norm, Standard Deviation
 
 fBodyAcc.Mean.X
 ----------------
@@ -261,32 +261,32 @@ Body Linear Gyroscope frequency domain signal Standard Deviation in the Z dimens
 
 fBodyAccMagnitude.Mean
 -----------------------
-Body Acceleration frequency domain signal Magnitude using the Euclidean norm Mean
+Body Acceleration frequency domain signal Magnitude using the Euclidean norm, Mean
 
 fBodyAccMagnitude.StdDev
 ---------------------------
-Body Acceleration frequency domain signal Magnitude using the Euclidean norm Standard Deviation
+Body Acceleration frequency domain signal Magnitude using the Euclidean norm, Standard Deviation
 
 fBodyAccJerkMagnitude.Mean
 ------------------------------
-Body Acceleration Jerk frequency domain signal Magnitude using the Euclidean norm Mean
+Body Acceleration Jerk frequency domain signal Magnitude using the Euclidean norm, Mean
 
 fBodyAccJerkMagnitude.StdDev
 -------------------------------
-Body Acceleration Jerk frequency domain signal Magnitude using the Euclidean norm Standard Deviation
+Body Acceleration Jerk frequency domain signal Magnitude using the Euclidean norm, Standard Deviation
 
 fBodyGyroMagnitude.Mean
 -----------------------
-Body Gyroscope frequency domain signal Magnitude using the Euclidean norm Mean
+Body Gyroscope frequency domain signal Magnitude using the Euclidean norm, Mean
 
 fBodyGyroMagnitude.StdDev
 ---------------------------
-Body Gyroscope frequency domain signal Magnitude using the Euclidean norm Standard Deviation
+Body Gyroscope frequency domain signal Magnitude using the Euclidean norm, Standard Deviation
 
 fBodyGyroJerkMagnitude.Mean
 ------------------------------
-Body Gyroscope Jerk frequency domain signal Magnitude using the Euclidean norm Mean
+Body Gyroscope Jerk frequency domain signal Magnitude using the Euclidean norm, Mean
 
 fBodyGyroJerkMagnitude.StdDev
 -------------------------------
-Body Gyroscope Jerk frequency domain signal Magnitude using the Euclidean norm Standard Deviation
+Body Gyroscope Jerk frequency domain signal Magnitude using the Euclidean norm, Standard Deviation
