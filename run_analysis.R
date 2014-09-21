@@ -70,22 +70,22 @@
         ## descriptive variable names   
         ## replace mean with Mean, std with StandardDeviation
         ## get rid of parentheses and dashes
-        colnames(merged_data) <- gsub("mean\\(\\)","Mean",colnames(merged_data))
-        colnames(merged_data) <- gsub("std\\(\\)","StandardDeviation",colnames(merged_data))
+        colnames(merged_data) <- gsub("mean\\(\\)",".Mean",colnames(merged_data))
+        colnames(merged_data) <- gsub("std\\(\\)",".StdDev",colnames(merged_data))
         colnames(merged_data) <- gsub("-","",colnames(merged_data))
         ## fix BodyBody error
         colnames(merged_data) <- gsub("BodyBody","Body",colnames(merged_data))
         ## replace Mag with Magnitude
         colnames(merged_data) <- gsub("Mag","Magnitude",colnames(merged_data))
         ## add 'axis' after X, Y, or Z
-        colnames(merged_data) <- gsub("(X|Y|Z)$","\\1axis",colnames(merged_data))
+        colnames(merged_data) <- gsub("(X|Y|Z)$",".\\1",colnames(merged_data))
         
         ## Step 5
         
         ## melt the merged data table by using subject and activity columns as id variables
-        melted_data <- melt(merged_data,id.vars=c('subject','activity'))
+        molten_data <- melt(merged_data,id.vars=c('subject','activity'))
         ## calculate average per subject and activity
-        tidy_data   <- dcast(melted_data,subject+activity~variable,mean)
+        tidy_data   <- dcast(molten_data,subject+activity~variable,mean)
         
-        ## save the tidy data set to file tidy.txt
+        ## save the tidy data set into the file tidy.txt
         write.table(tidy_data, file="tidy.txt", row.names=FALSE)                                                                      
