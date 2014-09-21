@@ -37,7 +37,7 @@ the data frames `train_data` (561 columns), `train_subjects` (1 column) and `tra
 
 #### Step 2
 
-* In this step the script applies the function select() on `merged_data` and extracts the subset of columns matching `subject`, `activity`, `mean()` or `std()`. We chose not to keep the mean frequency measurements, because in our opinion the assignment does not require the mean frequency measurements, and additionally [the Community Teaching Assistants in the Course Discussion Forums have stated that this selection is accepted][id].
+* In this step the script applies the function select() on `merged_data` and extracts the subset of columns matching `subject`, `activity`, `mean()` or `std()`. We chose not to keep the mean frequency measurements, because in our opinion the assignment does not require the mean frequency measurements, and additionally [the Community Teaching Assistants in the Course Discussion Forums have stated that this selection is accepted][Coursera].
 
 #### Step 3
 
@@ -49,11 +49,11 @@ the data frames `train_data` (561 columns), `train_subjects` (1 column) and `tra
 
 #### Step 5
 
-*  In the fifth step the script first melts the `merged_data` data frame into the narrow `molten_data` data frame, which consists of the columns `subject`, `activity`, `variable` and `value`. This is done with the `melt()` function from the [`reshape2` package][id], using the `subject` and `activity` columns as identifier variables and the rest of the columns as measured variables. The script then calls `dcast()` to rearrange the molten data frame `melted_data` into the tidy data frame `tidy_data`. It puts the identifier variables in the rows, the measured variables in the columns and uses the aggregation function `mean()` to calculate the average of each measured variable for each activity and each subject.
+*  In the fifth step the script first melts the `merged_data` data frame into the narrow `molten_data` data frame, which consists of the columns `subject`, `activity`, `variable` and `value`. This is done with the `melt()` function from the [`reshape2` package][Wickham2007], using the `subject` and `activity` columns as identifier variables and the rest of the columns as measured variables. The script then calls `dcast()` to rearrange the molten data frame `melted_data` into the tidy data frame `tidy_data`. It puts the identifier variables in the rows, the measured variables in the columns and uses the aggregation function `mean()` to calculate the average of each measured variable for each activity and each subject.
 
 #### Saving the produced tidy data set
 
 * Finally the script saves the data frame `tidy_data` in the file `tidy.txt`.
 
-[id]: https://class.coursera.org/getdata-007/forum/thread?thread_id=188
-[id]: http://www.jstatsoft.org/v21/i12/paper
+[Coursera]: https://class.coursera.org/getdata-007/forum/thread?thread_id=188
+[Wickham2007]: http://www.jstatsoft.org/v21/i12/paper
